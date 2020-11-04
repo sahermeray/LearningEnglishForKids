@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".LetterAndWord">
+
+    <ImageView
+        android:id="@+id/letter_and_word_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="30dp" />
+
+    <TextView
+        android:id="@+id/letter_and_word_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="30dp"
+        android:text="ice cream"
+        android:textStyle="bold"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowColor="@color/colorAccent"
+        android:shadowRadius="1"
+        android:textAlignment="center"
+        android:textColor="@color/word_color"
+        android:textSize="60sp" />
+
+</LinearLayout>
